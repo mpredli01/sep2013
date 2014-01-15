@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.3" timestamp="2013-10-14T13:40:16.859">
+<file name="/usr/local/apps/java-apps/javasig/2013/sep2013/src/org/javasig/sep2013/Test.java">
+<violation beginline="3" endline="7" begincolumn="19" endcolumn="5" rule="UseSingleton" ruleset="Design" package="org.javasig.sep2013" class="Test" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/usr/local/apps/java-apps/javasig/2013/sep2013/src/org/javasig/sep2013/charmatcher/DemoCharMatcher.java">
+<violation beginline="15" endline="16" begincolumn="12" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Design" package="org.javasig.sep2013.charmatcher" class="DemoCharMatcher" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="/usr/local/apps/java-apps/javasig/2013/sep2013/src/org/javasig/sep2013/joiner/DemoJoiner.java">
+<violation beginline="17" endline="18" begincolumn="12" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Design" package="org.javasig.sep2013.joiner" class="DemoJoiner" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="/usr/local/apps/java-apps/javasig/2013/sep2013/src/org/javasig/sep2013/splitter/DemoSplitter.java">
+<violation beginline="16" endline="17" begincolumn="12" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Design" package="org.javasig.sep2013.splitter" class="DemoSplitter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="21" endline="21" begincolumn="9" endcolumn="24" rule="UnnecessaryLocalBeforeReturn" ruleset="Design" package="org.javasig.sep2013.splitter" class="DemoSplitter" method="splitString01" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'splitted'
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="24" rule="UnnecessaryLocalBeforeReturn" ruleset="Design" package="org.javasig.sep2013.splitter" class="DemoSplitter" method="splitString02" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.3/rules/java/design.html#UnnecessaryLocalBeforeReturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'splitted'
+</violation>
+</file>
+</pmd>
